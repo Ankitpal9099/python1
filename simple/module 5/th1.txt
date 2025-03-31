@@ -1,0 +1,40 @@
+Ques:
+Introduction to for and while loops.
+How loops work in Python.
+Using loops with collections (lists, tuples, etc.).
+
+Ans:
+------------------------------FOR LOOP -----------------------------------
+->In Python, a ‘for loop‘ is used to iterate over a sequence of items, such as a Python tuple, list, string, or range. The loop will execute a block of 
+statements for each item in the sequence.
+
+EXAMPLE:
+# Create a list of items 
+items = ['pen', 'notebook', 
+        'pencil', 'lunch box'] 
+  
+# Run a loop to print 
+# items in a list 
+for item in items: 
+    print(item)
+
+
+------------------------------WHILE LOOP -----------------------------------
+->In Python, a while loop is used to repeatedly execute a block of statements 
+while a condition is true. The loop will continue to run as long as the 
+condition remains true.
+# Create a list of items 
+items = ['pen', 'notebook', 
+         'pencil', 'lunch box'] 
+  
+# Declare a index 
+index = 0
+  
+# Store length of items list 
+items_len = len(items) 
+  
+# Run a loop to print 
+# items in a list 
+while index<items_len: 
+    print(items[index]) 
+    index = index+1

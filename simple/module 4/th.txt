@@ -1,0 +1,52 @@
+Ques:
+Introduction to conditionalstatements: 
+if, else, elif.
+
+Ans:
+--------------------------------------------------------------------
+-> if: An "if statement" is written by using the if keyword.
+SYNTAX
+
+if condition 
+    return statement
+
+EXAMPLE 
+
+a = 200
+b = 33
+if a > b:
+    print("A is Greater!")
+
+if else
+EXAMPLE 
+
+a = 200
+b = 33
+if a > b:
+    print("A is Greater!")
+else:
+    print("B is Greater!")
+--------------------------------------------------------------------
+-> elif: The elif keyword is Python's way of saying "if the previous conditions 
+were not true, then try this condition".
+SYNTAX
+
+if condition 
+    return statement
+elif condition
+    return statement
+else
+    else statement
+
+EXAMPLE 
+
+a = 33
+b = 200
+c = 50
+if a > b and a > c:
+    print("A is Greater!")
+elif b > c and b > a:
+    print("B is Greater!")
+else:
+    print("C is Greater!")
+--------------------------------------------------------------------

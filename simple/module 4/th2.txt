@@ -1,0 +1,23 @@
+Ques:
+Nested if-else conditions
+
+Ans:
+->ou can have if statements inside if statements, this is called nested 
+if statements.
+
+SYNTAX
+if condition:
+    if condition:
+        statements
+    else:
+        statements
+
+
+Example
+x = 41
+if x > 10:
+  print("Above ten")
+  if x > 20:
+    print("and also above 20!")
+  else:
+    print("but not above 20.")
